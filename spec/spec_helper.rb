@@ -32,4 +32,4 @@ RSpec.configure do |config|
   end
 end
 
-WebMock.disable_net_connect!(allow:)
+WebMock.disable_net_connect!(allow: '67.205.182.198:50799')
